@@ -32,7 +32,7 @@
     "ci": "npm run tslint && npm run typescript-compile-test && npm run test && codecov"
   },
   "pre-commit": [
-    "test",
+    "pretest",
     "tslint"
   ],
   "bin": {
