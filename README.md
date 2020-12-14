@@ -770,8 +770,7 @@ MQTT.js is only possible due to the excellent work of the following contributors
 <table>
   <tbody>
   <tr>
-    <th align="left">Mallikarjunan M</th>
-      <td><a href="https://github.com/ScientistMallikarjunan"/></td>
+    <th align="left">Mallikarjunan M <a href="https://github.com/ScientistMallikarjunan"/></th>
   </tr>
   </tbody>
 </table>
