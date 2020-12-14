@@ -767,9 +767,14 @@ Before you can begin using these TypeScript definitions with your project, you n
 
 MQTT.js is only possible due to the excellent work of the following contributors:
 
-<table><tbody>
-<tr><th align="left">Mallikarjunan M</th><td><a href="https://github.com/ScientistMallikarjunan"></td></tr>
-</tbody></table>
+<table>
+  <tbody>
+  <tr>
+    <th align="left">Mallikarjunan M</th>
+      <td><a href="https://github.com/ScientistMallikarjunan"/></td>
+  </tr>
+  </tbody>
+</table>
 
 <a name="license"></a>
 ## License
