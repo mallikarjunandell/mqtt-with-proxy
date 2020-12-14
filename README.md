@@ -766,7 +766,9 @@ Before you can begin using these TypeScript definitions with your project, you n
 ### Contributors
 
 MQTT.js is only possible due to the excellent work of the following contributors:
-<a href="https://github.com/ScientistMallikarjunan"/>
+
+# https://github.com/ScientistMallikarjunan
+
 <table>
   <tbody>
   <tr>
