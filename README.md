@@ -76,6 +76,8 @@ npm install mqtt --save
 
 For the sake of simplicity, let's put the subscriber and the publisher in the same file:
 
+### mqtt.connect method is made async to support proxy
+
 ```js
 var mqtt = require('mqtt')
 var client  = mqtt.connect('mqtt://test.mosquitto.org')
