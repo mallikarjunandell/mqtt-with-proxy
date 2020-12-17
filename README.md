@@ -78,7 +78,7 @@ For the sake of simplicity, let's put the subscriber and the publisher in the sa
 
 ### mqtt.connect method is made async to support proxy
 
-# To enable proxy for secure MQTT add the below proxy options in MQTT
+### To enable proxy for secure MQTT add the below proxy options in MQTT
 ```js
 let options = {
   proxy: {
