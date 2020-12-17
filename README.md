@@ -78,6 +78,23 @@ For the sake of simplicity, let's put the subscriber and the publisher in the sa
 
 ### mqtt.connect method is made async to support proxy
 
+# To enable proxy for secure MQTT add the below proxy options in MQTT
+```js
+let options = {
+  proxy: {
+    host: hostname,
+    port: port,
+    type: "https"
+  }
+  /*
+  Three types are supported
+  1. https
+  2. http
+  3. socks
+  */
+}
+```
+
 ```js
 var mqtt = require('mqtt')
 var client  = mqtt.connect('mqtt://test.mosquitto.org')
