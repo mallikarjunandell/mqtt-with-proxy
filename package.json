@@ -1,7 +1,7 @@
 {
   "name": "mqtt-with-proxy",
   "description": "A library for the MQTT protocol via proxy",
-  "version": "1.9.8",
+  "version": "1.9.9",
   "contributors": [
     "Mallikarjunan M <mallikarjunan08@gmail.com> (https://github.com/ScientistMallikarjunan/mqtt-with-proxy)"
   ],
