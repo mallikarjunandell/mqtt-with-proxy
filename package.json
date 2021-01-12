@@ -1,7 +1,7 @@
 {
   "name": "mqtt-with-proxy",
   "description": "A library for the MQTT protocol via proxy",
-  "version": "2.2.4",
+  "version": "2.2.5",
   "contributors": [
     "Mallikarjunan M <mallikarjunan08@gmail.com> (https://github.com/ScientistMallikarjunan/mqtt-with-proxy)"
   ],
@@ -72,6 +72,7 @@
     "pump": "^3.0.0",
     "readable-stream": "^3.6.0",
     "reinterval": "^1.1.0",
+    "socks": "^2.5.1",
     "split2": "^3.2.2",
     "tunnel": "0.0.6",
     "ws": "^7.3.1",
