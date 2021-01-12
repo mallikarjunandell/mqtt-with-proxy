@@ -84,7 +84,7 @@ let options = {
   proxy: {
     host: hostname,
     port: port,
-    type: "https"
+    proxyType: "https"
   }
   /*
   Three types are supported
