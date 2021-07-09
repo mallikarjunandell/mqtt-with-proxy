@@ -1,7 +1,7 @@
 {
   "name": "mqtt-with-proxy",
   "description": "A library for the MQTT protocol via proxy",
-  "version": "2.4.9",
+  "version": "2.4.10",
   "contributors": [
     "Mallikarjunan M <mallikarjunan08@gmail.com> (https://github.com/ScientistMallikarjunan/mqtt-with-proxy)"
   ],
@@ -63,7 +63,7 @@
     "concat-stream": "^2.0.0",
     "deasync": "^0.1.21",
     "debug": "^4.2.0",
-    "help-me": "^1.1.0",
+    "help-me": "^3.0.0",
     "https-socks-proxy": "^2.2.0",
     "inherits": "^2.0.4",
     "minimist": "^1.2.5",
@@ -75,20 +75,20 @@
     "socks": "^2.5.1",
     "split2": "^3.2.2",
     "tunnel": "0.0.6",
-    "ws": "^7.3.1",
+    "ws": "^7.5.2",
     "xtend": "^4.0.2"
   },
   "devDependencies": {
     "@types/node": "^10.0.0",
     "aedes": "^0.42.6",
-    "airtap": "^3.0.0",
+    "airtap": "^4.0.3",
     "browserify": "^16.5.2",
     "chai": "^4.2.0",
     "codecov": "^3.8.0",
     "end-of-stream": "^1.4.4",
     "global": "^4.4.0",
     "mkdirp": "^0.5.5",
-    "mocha": "^4.1.0",
+    "mocha": "^9.0.2",
     "mqtt-connection": "^4.0.0",
     "nyc": "^15.1.0",
     "pre-commit": "^1.2.2",
