@@ -1,7 +1,7 @@
 {
   "name": "mqtt-with-proxy",
   "description": "A library for the MQTT protocol via proxy",
-  "version": "2.5.0",
+  "version": "2.5.1",
   "contributors": [
     "Mallikarjunan Marimuthu <Mallikarjunan_M@Dell.com> (https://github.com/mallikarjunandell)"
   ],
@@ -69,6 +69,7 @@
     "minimist": "^1.2.5",
     "mqtt-packet": "^6.6.0",
     "node-fetch": "^2.6.1",
+    "number-allocator": "^1.0.7",
     "pump": "^3.0.0",
     "readable-stream": "^3.6.0",
     "reinterval": "^1.1.0",
