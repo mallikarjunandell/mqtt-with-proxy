@@ -1,12 +1,9 @@
 {
-  "name": "mqtt",
-  "description": "A library for the MQTT protocol",
-  "version": "4.2.8",
+  "name": "mqtt-with-proxy",
+  "description": "A library for the MQTT protocol via proxy",
+  "version": "2.5.0",
   "contributors": [
-    "Adam Rudd <adamvrr@gmail.com>",
-    "Matteo Collina <matteo.collina@gmail.com> (https://github.com/mcollina)",
-    "Siarhei Buntsevich <scarry0506@gmail.com> (https://github.com/scarry1992)",
-    "Yoseph Maguire <yomaguir@microsoft.com> (https://github.com/YoDaMa)"
+    "Mallikarjunan Marimuthu <Mallikarjunan_M@Dell.com> (https://github.com/mallikarjunandell)"
   ],
   "keywords": [
     "mqtt",
@@ -17,7 +14,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mqttjs/MQTT.js.git"
+    "url": "https://github.com/mallikarjunandell/mqtt-with-proxy"
   },
   "main": "mqtt.js",
   "types": "types/index.d.ts",
