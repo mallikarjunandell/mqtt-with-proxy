@@ -76,6 +76,25 @@ npm install mqtt --save
 
 For the sake of simplicity, let's put the subscriber and the publisher in the same file:
 
+### mqtt.connect method is made async to support proxy
+
+### To enable proxy for secure MQTT add the below proxy options in MQTT
+```js
+let options = {
+  proxy: {
+    host: hostname,
+    port: port,
+    proxyType: "https"
+  }
+  /*
+  Three types are supported
+  1. https
+  2. http
+  3. socks
+  */
+}
+```
+
 ```js
 var mqtt = require('mqtt')
 var client  = mqtt.connect('mqtt://test.mosquitto.org')
@@ -781,10 +800,8 @@ See the [CONTRIBUTING.md](https://github.com/mqttjs/MQTT.js/blob/master/CONTRIBU
 MQTT.js is only possible due to the excellent work of the following contributors:
 
 <table><tbody>
-<tr><th align="left">Adam Rudd</th><td><a href="https://github.com/adamvr">GitHub/adamvr</a></td><td><a href="http://twitter.com/adam_vr">Twitter/@adam_vr</a></td></tr>
-<tr><th align="left">Matteo Collina</th><td><a href="https://github.com/mcollina">GitHub/mcollina</a></td><td><a href="http://twitter.com/matteocollina">Twitter/@matteocollina</a></td></tr>
-<tr><th align="left">Maxime Agor</th><td><a href="https://github.com/4rzael">GitHub/4rzael</a></td><td><a href="http://twitter.com/4rzael">Twitter/@4rzael</a></td></tr>
-<tr><th align="left">Siarhei Buntsevich</th><td><a href="https://github.com/scarry1992">GitHub/scarry1992</a></td></tr>
+  <tr>
+    <th align="left">Mallikarjunan Marimuthu</th><><a href="https://github.com/mallikarjunandell">GitHub/mallikarjunandell</a>
 </tbody></table>
 
 <a name="license"></a>
